@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const todoList = () => {
+    console.log("sth change");
     <img src={logo}/>
 }
 
