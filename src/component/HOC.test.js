@@ -4,7 +4,8 @@ const withData = (WrappedComponent) => {
   const WithData = (props) => {
     const [data, setData] = useState([]);
     console.log("hello");
-    s
+    console.log("pull request");
+    
     useEffect(() => {
       fetch('https://api.example.com/data')
         .then((response) => response.json())
