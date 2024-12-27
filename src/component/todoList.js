@@ -3,8 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 const todoList = () => {
-    console.log("tiny little sdsdfsdfd");
-    <img src={logo}/>
+    <img src={logo} />
+    console.log("Another try to make a PR, lol");
 }
 
 export default todoList;
